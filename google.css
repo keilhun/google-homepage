@@ -1,0 +1,23 @@
+body {
+    font-size: 12px;
+}
+
+#logo {
+    position: relative;
+    top: 200px;
+    display: block;
+    margin: auto;
+}
+#search_box {
+    line-height: 2em;
+    border-color: grey;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 200px; 
+}
+
+.search {
+    background: url(images/microphone2.png) no-repeat;
+    background-position: right;
+}
