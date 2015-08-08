@@ -1,23 +1,65 @@
 body {
-    font-size: 12px;
+    font-size: 15px;
 }
 
-#logo {
-    position: relative;
-    top: 200px;
+div {
     display: block;
-    margin: auto;
 }
+/*#nav {
+   float: right;
+   width: 220px;
+   display: block;
+}*/
+
+#nav a {
+    text-decoration: none;
+     height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
 #search_box {
-    line-height: 2em;
-    border-color: grey;
-    position: relative;
-    display: block;
-    margin: auto;
-    top: 200px; 
+    font-size: 1.25em;
 }
-
 .search {
     background: url(images/microphone2.png) no-repeat;
     background-position: right;
 }
+
+#nav ul {
+    float: right;
+    display: table;
+    height: 30px;
+    line-height: 30px;
+}
+#nav li {
+   /* position: relative;*/
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    clear: both;
+    top: 200px;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#logo input {
+    display: block;
+    height: 25px;
+}
+
+.center {
+    margin: auto;
+}
+
+
